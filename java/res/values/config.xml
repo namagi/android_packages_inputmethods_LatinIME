@@ -30,7 +30,7 @@
          at input history to suggest a hopefully helpful suggestions for the next word? -->
     <bool name="config_default_next_word_prediction">true</bool>
     <bool name="config_default_sound_enabled">false</bool>
-    <bool name="config_default_vibration_enabled">true</bool>
+    <bool name="config_default_vibration_enabled">false</bool>
     <integer name="config_max_vibration_duration">100</integer> <!-- milliseconds -->
     <integer name="config_delay_update_suggestions">100</integer>
     <integer name="config_delay_update_old_suggestions">300</integer>
@@ -40,7 +40,7 @@
     <integer name="config_more_keys_keyboard_fadeout_anim_time">100</integer>
     <integer name="config_keyboard_grid_width">32</integer>
     <integer name="config_keyboard_grid_height">16</integer>
-    <integer name="config_double_space_period_timeout">1100</integer>
+    <integer name="config_double_space_period_timeout">200</integer>
     <!-- This configuration is the index of the array {@link KeyboardSwitcher.KEYBOARD_THEMES}. -->
     <string name="config_default_keyboard_theme_index" translatable="false">5</string>
     <integer name="config_max_more_keys_column">5</integer>
@@ -63,12 +63,12 @@
     <integer name="config_sliding_key_input_preview_shadow_ratio">-1</integer>
     <integer name="config_key_repeat_start_timeout">400</integer>
     <integer name="config_key_repeat_interval">50</integer>
-    <integer name="config_default_longpress_key_timeout">300</integer>  <!-- milliseconds -->
+    <integer name="config_default_longpress_key_timeout">150</integer>  <!-- milliseconds -->
     <integer name="config_longpress_timeout_step">10</integer> <!-- milliseconds -->
     <integer name="config_min_longpress_timeout">100</integer> <!-- milliseconds -->
     <integer name="config_max_longpress_timeout">700</integer> <!-- milliseconds -->
     <!-- Long pressing shift will invoke caps-lock if > 0, never invoke caps-lock if == 0 -->
-    <integer name="config_longpress_shift_lock_timeout">1200</integer> <!-- milliseconds -->
+    <integer name="config_longpress_shift_lock_timeout">300</integer> <!-- milliseconds -->
     <integer name="config_ignore_alt_code_key_timeout">350</integer> <!-- milliseconds -->
     <!-- Showing more keys keyboard, just above the touched point if true, aligned to the key if
          false -->
